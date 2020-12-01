@@ -1,0 +1,63 @@
+     INT     int
+      ID       f       0
+  LPAREN       (
+  RPAREN       )
+  LBRACE       {
+     INT     int
+      ID       a       1
+SEMICOLON       ;
+      ID       a       1
+  ASSIGN       =
+  NUMBER       0       0
+SEMICOLON       ;
+   WHILE   while
+  LPAREN       (
+      ID       a       1
+  NUMBER      10       1
+  RPAREN       )
+  LBRACE       {
+      ID       a       1
+     MUL       *
+  ASSIGN       =
+  NUMBER       2       2
+SEMICOLON       ;
+  RBRACE       }
+      ID  return       2
+      ID       a       1
+SEMICOLON       ;
+  RBRACE       }
+     INT     int
+      ID    main       3
+  LPAREN       (
+  RPAREN       )
+  LBRACE       {
+     INT     int
+      ID       a       1
+SEMICOLON       ;
+      ID       a       1
+  ASSIGN       =
+  NUMBER       0       3
+SEMICOLON       ;
+      IF      if
+  LPAREN       (
+      ID       a       1
+      EQ      ==
+  NUMBER       0       4
+  RPAREN       )
+  LBRACE       {
+     INT     int
+      ID       a       1
+SEMICOLON       ;
+      ID       a       1
+  ASSIGN       =
+      ID       a       1
+    PLUS       +
+  NUMBER       1       5
+SEMICOLON       ;
+  RBRACE       }
+      ID  return       2
+  NUMBER       0       6
+SEMICOLON       ;
+  RBRACE       }
+      18      22     152       7
+       4

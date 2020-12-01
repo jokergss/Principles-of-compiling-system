@@ -1,0 +1,21 @@
+      ID    main       0
+  LPAREN       (
+  RPAREN       )
+  LBRACE       {
+     INT     int
+      ID       a       1
+SEMICOLON       ;
+      IF      if
+  LPAREN       (
+      ID       a       1
+      EQ      ==
+  NUMBER       0       0
+  RPAREN       )
+      ID       a       1
+  ASSIGN       =
+      ID       a       1
+    PLUS       +
+  NUMBER       1       1
+SEMICOLON       ;
+  RBRACE       }
+       4       7      38       2
