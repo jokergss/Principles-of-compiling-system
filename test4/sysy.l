@@ -21,10 +21,15 @@ RPAREN ")"
 LBRACE "{"
 RBRACE "}"
 INT int
+<<<<<<< HEAD
 MAIN main
 IF if
 while while
 RETURN return
+=======
+IF if
+while while
+>>>>>>> 7e86b995808bd6e9769b554746efdb21d4ba16ff
 number  [0-9]+
 ID  [a-z]+[a-zA-Z0-9]+
 line \n
@@ -46,10 +51,15 @@ commentend "*/"
 {RPAREN}    {std::cout<<std::setw(8)<<"RPAREN"<<std::setw(8)<<yytext<<std::endl;chars++;}
 {LBRACE}    {std::cout<<std::setw(8)<<"LBRACE"<<std::setw(8)<<yytext<<std::endl;chars++;}
 {RBRACE}    {std::cout<<std::setw(8)<<"RBRACE"<<std::setw(8)<<yytext<<std::endl;chars++;}
+<<<<<<< HEAD
 {RETURN}    {std::cout<<std::setw(8)<<"RETURN"<<std::setw(8)<<yytext<<std::endl;chars++;}
 {INT}       {std::cout<<std::setw(8)<<"INT"<<std::setw(8)<<"int"<<std::endl;words++;chars=chars+3;}
 {MAIN}      {std::cout<<std::setw(8)<<"MAIN"<<std::setw(8)<<"main"<<std::endl;words++;chars=chars+4;}
 {IF}        {std::cout<<std::setw(8)<<"IF"<<std::setw(8)<<"if"<<std::endl;words++;chars=chars+2;}
+=======
+{INT}       {std::cout<<std::setw(8)<<"INT"<<std::setw(8)<<"int"<<std::endl;words++;chars=chars+3;}
+{IF}        {std::cout<<std::setw(8)<<"IF"<<std::setw(8)<<"if"<<std::endl;words++;chars=cahrs+2;}
+>>>>>>> 7e86b995808bd6e9769b554746efdb21d4ba16ff
 {while}     {std::cout<<std::setw(8)<<"WHILE"<<std::setw(8)<<"while"<<std::endl;words++;chars=chars+5;}
 {number}    {std::cout<<std::setw(8)<<"NUMBER"<<std::setw(8)<<yytext<<std::setw(8)<<nums<<std::endl;words++;chars+=strlen(yytext);nums++;}
 {ID}        {
@@ -83,6 +93,10 @@ int main(){
     yyFlexLexer lexer;
     lexer.yylex();
     std::cout<<std::setw(8)<<lines<<std::setw(8)<<words<<std::setw(8)<<chars<<std::setw(8)<<nums<<std::endl;
+<<<<<<< HEAD
     std::cout<<std::setw(8)<<IDs;
+=======
+    std::cout<<std::setw(8)<<IDs
+>>>>>>> 7e86b995808bd6e9769b554746efdb21d4ba16ff
     return 0;
 }

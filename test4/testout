@@ -1,52 +1,106 @@
      INT     int
+<<<<<<< HEAD
       ID    test       0
+=======
+      ID       f       0
+>>>>>>> 7e86b995808bd6e9769b554746efdb21d4ba16ff
   LPAREN       (
   RPAREN       )
   LBRACE       {
      INT     int
+<<<<<<< HEAD
 SEMICOLON       ;
+=======
+      ID       a       1
+SEMICOLON       ;
+      ID       a       1
+>>>>>>> 7e86b995808bd6e9769b554746efdb21d4ba16ff
   ASSIGN       =
   NUMBER       0       0
 SEMICOLON       ;
    WHILE   while
   LPAREN       (
+<<<<<<< HEAD
   NUMBER      10       1
   RPAREN       )
   LBRACE       {
+=======
+      ID       a       1
+  NUMBER      10       1
+  RPAREN       )
+  LBRACE       {
+      ID       a       1
+>>>>>>> 7e86b995808bd6e9769b554746efdb21d4ba16ff
      MUL       *
   ASSIGN       =
   NUMBER       2       2
 SEMICOLON       ;
   RBRACE       }
+<<<<<<< HEAD
   RETURN  return
 SEMICOLON       ;
   RBRACE       }
      INT     int
     MAIN    main
+=======
+      ID  return       2
+      ID       a       1
+SEMICOLON       ;
+  RBRACE       }
+     INT     int
+      ID    main       3
+>>>>>>> 7e86b995808bd6e9769b554746efdb21d4ba16ff
   LPAREN       (
   RPAREN       )
   LBRACE       {
      INT     int
+<<<<<<< HEAD
 SEMICOLON       ;
+=======
+      ID       a       1
+SEMICOLON       ;
+      ID       a       1
+>>>>>>> 7e86b995808bd6e9769b554746efdb21d4ba16ff
   ASSIGN       =
   NUMBER       0       3
 SEMICOLON       ;
       IF      if
   LPAREN       (
+<<<<<<< HEAD
+=======
+      ID       a       1
+>>>>>>> 7e86b995808bd6e9769b554746efdb21d4ba16ff
       EQ      ==
   NUMBER       0       4
   RPAREN       )
   LBRACE       {
      INT     int
+<<<<<<< HEAD
 SEMICOLON       ;
   ASSIGN       =
+=======
+      ID       a       1
+SEMICOLON       ;
+      ID       a       1
+  ASSIGN       =
+      ID       a       1
+>>>>>>> 7e86b995808bd6e9769b554746efdb21d4ba16ff
     PLUS       +
   NUMBER       1       5
 SEMICOLON       ;
   RBRACE       }
+<<<<<<< HEAD
   RETURN  return
   NUMBER       0       6
 SEMICOLON       ;
   RBRACE       }
       18      16     167       7
        1
+=======
+      ID  return       2
+  NUMBER       0       6
+SEMICOLON       ;
+  RBRACE       }
+      18      22     152       7
+       4
+>>>>>>> 7e86b995808bd6e9769b554746efdb21d4ba16ff

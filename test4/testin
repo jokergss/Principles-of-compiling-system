@@ -1,7 +1,11 @@
 /*
 I'm a function
 */
+<<<<<<< HEAD
 int test(){
+=======
+int f(){
+>>>>>>> 7e86b995808bd6e9769b554746efdb21d4ba16ff
     int a;
     a = 0;
     while(a < 10){
