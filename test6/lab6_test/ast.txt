@@ -1,0 +1,1 @@
+zivl@10	@0	id_expr:identifier	name:c	symtbl_seq:3	1
